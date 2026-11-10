@@ -394,13 +394,13 @@ window.CLIPS = {
   "file": "Best Ad 07 - Singing Story.mp4",
   "poster": "assets/posters/best-ad-07-singing-story.webp",
   "dur": 193,
-  "driveId": ""
+  "driveId": "1g54Lq3L2vKwNfP2MNtuQP7Y9Cdy9KT8f"
  },
  "Best Ad 08 - Car Selfie.mp4": {
   "file": "Best Ad 08 - Car Selfie.mp4",
   "poster": "assets/posters/best-ad-08-car-selfie.webp",
   "dur": 32,
-  "driveId": ""
+  "driveId": "1RVeH40XznTJDfpODwbHiyqrZiM9mxtVu"
  }
 };
 window.BEST = [

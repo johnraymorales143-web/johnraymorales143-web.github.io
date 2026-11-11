@@ -349,3 +349,5 @@ h3{font-size:20px;font-weight:700;letter-spacing:-.02em}
 .proof-copy .muted{margin-top:4px;font-size:13.5px}
 @media (max-width:1020px){.proof-list{grid-template-columns:1fr}}
 @media (max-width:480px){.proof{padding:18px}.proof-list>li{grid-template-columns:110px 1fr;gap:16px}}
+.proof-label{margin-bottom:4px}
+.proof-spend{margin:0 0 14px;font-size:14px;color:var(--muted)}

@@ -52,9 +52,9 @@
   });
 
   /* Hero featured ads */
-  document.querySelectorAll(".feat-item").forEach(function (b) {
+  document.querySelectorAll(".feat-item, .proof-play").forEach(function (b) {
     var item = BEST.filter(function (x) { return x.id === b.dataset.best; })[0];
-    if (item) b.addEventListener("click", function () { openPlayer(item, b); });
+    if (item) b.addEventListener("click", function () { openPlayer(item, b, +(b.dataset.var || 0)); });
   });
 
   /* Filters */
@@ -89,7 +89,7 @@
     }
     $("#pl-vars").querySelectorAll("button").forEach(function (b, i) { b.setAttribute("aria-pressed", i === idx ? "true" : "false"); });
   }
-  function openPlayer(item, from) {
+  function openPlayer(item, from, start) {
     opener = from;
     $("#pl-title").textContent = item.title;
     $("#pl-meta").textContent = metaLine(item);
@@ -104,7 +104,7 @@
         vars.appendChild(b);
       });
     }
-    load(item, 0);
+    load(item, Math.min(start || 0, item.variants.length - 1));
     dlg.showModal();
   }
   function closePlayer() { dlg.close(); }

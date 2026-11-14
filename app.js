@@ -123,7 +123,7 @@
   } else { reveal(); }
 
   /* Marquee */
-  var fmts = ["UGC ads", "VSLs", "Pixar-style 3D", "Claymation", "Singing animation", "Skeleton explainers", "Localized ads", "Hook testing"];
+  var fmts = ["AI drama", "UGC ads", "VSLs", "Pixar-style 3D", "Claymation", "Singing animation", "Skeleton explainers", "Localized ads", "Hook testing"];
   var track = $("#track");
   track.innerHTML = fmts.concat(fmts).map(function (f) { return "<span>" + f + "</span>"; }).join("");
 

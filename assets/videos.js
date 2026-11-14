@@ -1,5 +1,10 @@
 /* Portfolio data. driveId = the Google Drive file ID for each video (view-only). */
 window.CLIPS = {
+ "Best Ad 09 - AI Drama.mp4": {
+  "file": "Best Ad 09 - AI Drama.mp4",
+  "poster": "assets/posters/best-ad-09-ai-drama.webp",
+  "dur": 252
+ },
  "Best Ad 01 - Hook 1.mp4": {
   "file": "Best Ad 01 - Hook 1.mp4",
   "poster": "assets/posters/best-ad-01-hook-1.webp",
@@ -447,15 +452,15 @@ window.BEST = [
   ]
  },
  {
-  "id": "best-08",
-  "title": "Car-selfie character ad",
-  "format": "Pixar-style 3D UGC",
+  "id": "best-10",
+  "title": "Realtor who lost his edge",
+  "format": "AI drama",
   "lang": "English",
-  "note": "A 3D character filmed like a real creator in his car, hook-first for a men’s hat brand.",
+  "note": "A four-minute photoreal mini-film for a men\u2019s cap brand: one agent, one listing, a character arc that ends on the product. Every frame generated, every voice written.",
   "variants": [
    {
     "label": "Watch",
-    "file": "Best Ad 08 - Car Selfie.mp4"
+    "file": "Best Ad 09 - AI Drama.mp4"
    }
   ]
  },
@@ -538,6 +543,18 @@ window.BEST = [
  }
 ];
 window.WORK = [
+ {
+  "cat": "drama",
+  "title": "Realtor who lost his edge",
+  "format": "AI drama, 4 min",
+  "lang": "English",
+  "variants": [
+   {
+    "label": "Watch",
+    "file": "Best Ad 09 - AI Drama.mp4"
+   }
+  ]
+ },
  {
   "cat": "localized",
   "title": "Handwriting coaching, parent angle",

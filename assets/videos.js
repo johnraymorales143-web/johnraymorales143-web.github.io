@@ -3,7 +3,8 @@ window.CLIPS = {
  "Best Ad 09 - AI Drama.mp4": {
   "file": "Best Ad 09 - AI Drama.mp4",
   "poster": "assets/posters/best-ad-09-ai-drama.webp",
-  "dur": 252
+  "dur": 252,
+  "driveId": "1d6CsRPT-he7QapQPZjJ9NkZviBDtHnjF"
  },
  "Best Ad 01 - Hook 1.mp4": {
   "file": "Best Ad 01 - Hook 1.mp4",
